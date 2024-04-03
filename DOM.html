@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="DOM.css">
+        <script src="DOM.js"></script>
+    </head>
+    <body>
+        <h2>DOM-Practice</h2>
+        <fieldset>
+            <legend>getElement==>byName,byId</legend>
+            <label>Name:</label>
+            <input type="text" id="firstname" value="" name="firstName"><br>
+            <label>lastName:</label>
+            <input type="text" id="lastname" value="" name="lastName"><br>
+            <label>male</label>
+            <input type="radio" id="male" value="male" name="gender">
+            <label>Female</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label>other</label>
+            <input type="radio" id="other" value="other" name="gender"><br>
+            <button onclick="getName()">Submite</button>
+        </fieldset> 
+         <br> 
+        <fieldset>
+            <legend>getElement==>tagName</legend>
+            <p id="para1">This is <span>Arun</span></p>
+            <p id="para2">They are all my Friends</p> 
+            <button onclick="getTagName()">Submite</button>
+        </fieldset>  
+         <br>
+        <fieldset>
+            <legend>getClassName</legend>
+            <div class="main">
+                <p>Lorem ipsum, itaque facere quaerat voluptatum quam nulla.</p>
+                <textarea class="area">EnterFeedback..........</textarea>
+            </div>
+            <button onclick="classname()">Click me</button>
+        </fieldset>
+        <fieldset>
+            <h3 class="head3">This is querySelector</h3>
+            <br>
+            <b id="bold">call By Id Name</b><br>
+            <button onclick="qSelector()">switchMe</button>
+        </fieldset>
+        <br>
+        <button onclick="CreatElement()">CreatElement</button>
+        <br>
+        <button onclick="CreatElementChild()">creatChild</button>
+        <fieldset>
+            <h2>Hellow world</h2>
+            <h3>welcome <span>js</span></h3>
+            <button onclick="construtor()">switchMe</button>
+        </fieldset>     
+        <ul id="menu">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+        </ul>
+        <button onclick="remveMenuChild()">tap</button>
+        
+    </body>
+</html>
