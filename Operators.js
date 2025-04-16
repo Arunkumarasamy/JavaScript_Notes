@@ -1,21 +1,21 @@
-/* operators ==> Arithamtice, Relation ,Logical ,Comper ,Ternary  */
+/* operators ==>  it's a symbol that can perform the opertion on variable , value , expression
+Arithamtice, Relation ,Logical ,Comper ,Ternary  */
 
 console.log("------Arithamatic------")
 // add
-console.log(10+2)
+console.log("adding----",10+2)
 // sub
-console.log(10-2)
+console.log("sub-----",10-2)
 // mul
-console.log(10*2)
+console.log("mult-----",10*2)
                       // div questant    o/p----> 5
-console.log(10/2)
+console.log("division---/---",10/2)
                      // this reminder    o/p----> 0
-console.log(10 % 2)
+console.log("div reminder----%--",10 % 2)
                      // squar root
-console.log(5**2)
+console.log("squar----**--",5**2)
 
 console.log("-----Relation--------")
-
 console.log(10<5);
 console.log(10>5);
 console.log(10<=10);
@@ -39,7 +39,7 @@ console.log(10===10)
 /* Logical----------> AND(&&) , OR(||)  */
 
 console.log("-----------AND operator------------")
-var age=18 ,idcard=2
+var age=20 ,idcard=2
 if(18<=age && 1==idcard){
     console.log("Eligible to vote")
 }

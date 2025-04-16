@@ -1,0 +1,24 @@
+Fullstack-->MERN
+---------------------------
+•	Accomplished Full-Stack Developer with a strong foundation in HTML, CSS, and JavaScript, specializing in creating dynamic and user-centric web applications.
+•	Proficient in React.js and Redux for building interactive and scalable front-end components, ensuring a seamless user experience.
+•	Expertise in Bootstrap and Flex for responsive and mobile-first web development, crafting visually appealing and accessible interfaces.
+•	Comprehensive understanding of Node.js, utilizing it to develop robust and efficient server-side applications and APIs.
+•	Skilled in MongoDB and NoSQL databases, employing them for flexible and scalable data storage in Node.js applications.
+•	Experience in Git for version control, ensuring collaborative and efficient code management in team environments.
+•	Proficient in project management tools like Jira, facilitating task management, issue tracking, and sprint planning in Agile development settings.
+•	Adept at integrating React front-end with Node.js back-end, establishing clear communication and data flow between both layers.
+•	Expert in optimizing and fine-tuning the performance of integrated React and Node.js applications for enhanced efficiency.
+•	Strong understanding of asynchronous programming in Node.js, ensuring responsiveness and scalability in the server-side logic.
+•	Knowledgeable in implementing authentication and authorization mechanisms between React and Node.js for secure user access.
+•	Familiarity with NoSQL databases, enabling effective data modeling and storage in Node.js applications.
+•	Thorough understanding of Git workflows, ensuring a smooth and collaborative development process in a team environment.
+•	Demonstrated ability to create scalable and maintainable full-stack architectures using React and Node.js technologies.
+•	Proficient in deploying full-stack applications to cloud platforms, ensuring accessibility and scalability.
+•	Commitment to following best practices and industry standards for full-stack development, ensuring code quality and maintainability.
+•	Effective debugging and troubleshooting skills, proficiently resolving issues and maintaining the integrity of full-stack applications.
+•	Strong collaboration and communication skills, working seamlessly in cross-functional teams to achieve project objectives.
+•	Consistently delivering high-quality solutions aligned with project requirements and industry standards.
+•	Active participant in Agile ceremonies, ensuring adherence to project timelines and delivering value in each sprint.
+•	Enthusiastic about staying current with emerging technologies and industry trends through continuous learning and self-improvement.
+

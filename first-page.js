@@ -20,13 +20,13 @@ const b=("hellow Js");
 console.log(b);
 
 /**promt   is get i/p from user at run time and it allow only string */
-                                            //   number(prompt("enter num"))
-//prompt("Name:");
+                                              (prompt("enter num"))
+prompt("Name:");
 
 
-/** data type 
- 1. primitive dt-----------num,string,bollean,null,undefined
- 2. non-primitive dt-------array,object,regular express
+/** data type --------- it's can assign different kind value and varibles
+ 1. primitive dt-----------num,string,bollean,null,undefined  // defination --> it can store only the single value
+ 2. non-primitive dt-------array,object,regular express  // defination --> it can store multiple values
  */
 /* 2. non-primitive-------a) object ====> {}it's can wrk depend on key and value , keys are not be same */
 console.log("----------------Object-----------------");
@@ -56,9 +56,15 @@ let obj={
     section:{             // Object and inside object
         secton:1,
         sectin:2,
-        sectio:["tamil","english"],
+        sectio:[
+            {
+                area:"chennai",
+                street:"kadapperi"
+            },
+        ],
+        year:["love",2023]     // inside object we call a Array
+
     },
-    year:["love",2023]     // inside object we call a Array
 }
 console.log(obj);
 
@@ -72,12 +78,15 @@ num.frnds()
 console.log("------------Obj_destruture-------------")
 
 //case-1
+console.log("---------c1");
 let objec={key:20,test:30,sample:50}
 let {key,...others}=objec
 console.log(key);                     // call key value
-console.log(others);
+console.log(others);             // remaining key values
+console.log(objec);
 
 //case-2
+console.log("---------c2");
 let obje={
     firstName:"amar",                
     lastName:"k",
@@ -89,6 +98,7 @@ console.log(ln)
 console.log(axxx)
 
 // case-3
+console.log("---------c3");
 let firstname,lastname,email;
 ({firstname,lastname,email}={
     firstname:"fn",
@@ -98,6 +108,7 @@ let firstname,lastname,email;
 console.log(firstname);
 
 //case-4
+console.log("---------c4");
 let c={firstname:"ajs"}
 let {firstname:name}=c                          // replace key value indivual
 console.log(name)
@@ -107,9 +118,9 @@ console.log("-----Date-----")
 let date=new Date
 console.log(date)
 console.log(date.getDay())              //   Date method
-console.log(date.getMinutes())
-console.log(date.getMonth()+1)
-console.log(date.getFullYear())
+console.log("this one is min----",date.getMinutes())
+console.log("this is month----",date.getMonth()+1)
+console.log("this is year-------",date.getFullYear())
 
 console.log("----This-----")
 
@@ -123,9 +134,7 @@ const hi={
 }
 hi.functionName()
 
-var obj1={hi:"hjk",cghy:"xcfguj"}
-var{hi:hellow}=obj1
-console.log(hellow)
+ 
 
 
 

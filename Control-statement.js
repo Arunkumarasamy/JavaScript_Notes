@@ -1,4 +1,5 @@
-/* Condition=====> if,else,nested if,else if */
+/* Condition=====> it's used to excute the code whether based on conditions 
+ if,else,nested if,else if */
 
 let pwd_correct=true
 if(pwd_correct){
@@ -10,10 +11,10 @@ else{
 
 age=20;
 if(age<25){
-    console.log("true")
+    console.log(true)
 }
 else{
-    console.log("false")
+    console.log(false)
 }
 
  console.log("----------Nested if---------------")

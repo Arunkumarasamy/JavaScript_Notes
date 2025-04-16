@@ -4,7 +4,7 @@ function rev(a) {
     for (i = a.length - 1; i >= 0; i--) {
         k += a[i]
     }
-    console.log(k)
+    console.log("reverse-------->",k)
 }
 rev("wolleh")
 
@@ -13,14 +13,14 @@ function redu(a) {
     var sum = a.reduce((acc, curr) => {
         return acc + curr
     })
-    console.log(sum)
+    console.log("reduce-------->",sum)
 }
 redu([2, 3, 5, 7, 90])
 
 // 6
 function removeDub(a) {
     var res = [...new Set(a)]
-    console.log(res)
+    console.log("remove dou num-------->",res)
 }
 removeDub([5, 6, 7, 5, 4, 3, 3, 3, 5])
 
@@ -28,7 +28,7 @@ removeDub([5, 6, 7, 5, 4, 3, 3, 3, 5])
 var a = (char) => {
     let spliStrinChar = char.split("")
     let storChar = [...new Set(spliStrinChar)].join("")
-    console.log(storChar)
+    console.log("remove doub-------->",storChar)
 }
 a("array")
 
@@ -41,7 +41,7 @@ var ab = (prim) => {
    return true
   }   
 }
-console.log(ab(11))
+console.log("prime num-------->",ab(11))
 
 // ---> fibonacSeries
 var fb = (fibon) => {
@@ -53,9 +53,9 @@ var fb = (fibon) => {
         a = b
         b = templ
     }
-    console.log(store)
+    console.log("fibonac series-------->",store)
 }
-fb(10)
+fb(5)
 
 f=0;
 s=1;
@@ -68,7 +68,7 @@ function func(num,count=0){
     [f,s]=[s,f+s];
     func(num,count+1)
 }
-func(10)
+func(7)
 
 // ---> factorial
 function fact(value) {
@@ -76,7 +76,7 @@ function fact(value) {
     for (var i = 1; i <= value; i++) {
         res = res * i
     }
-    console.log(res)
+    console.log("factorial num-------->",res)
 }
 fact(5)
 
@@ -92,7 +92,6 @@ function leap(year){
 leap(2020)
 
 // --> random passs
-
 function rand(leng){
     var char="asdfghjkqwertyuiomnbvcxzASDFGHJKLZXCVBNMWERTYUIOP1234567890"
     store=""
@@ -105,6 +104,16 @@ function rand(leng){
             store+=char[form]
         }        
     }
-    console.log(store)
+    console.log("random pass--------->",store)
 }
 rand(5)
+
+//Otp
+function otp(count){
+    let otp='';
+    for(i=0;i<count;i++){
+      otp+=Math.floor(Math.random()*9)
+    }
+    console.log("generate otp------->",otp);
+  }
+  otp(5);

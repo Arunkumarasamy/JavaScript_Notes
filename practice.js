@@ -24,77 +24,69 @@
 // console.log(typeof(NaN))
 // console.log(typeof(BigInt))
 
-// copyWithin()
+// copyWithin()     ---> it's modifed the the array places and does not return new array this is "mutator" arr method
 //      0 1 2 3 4  
 let ak=[1,2,3,4,5]
  var copy=ak.copyWithin(3,1)
- console.log(copy)
+ console.log("copyWith---------",copy)
 
  // fill
 var ab=[1,2,3,4,5,6,7]
 var f=ab.fill(0,1,3)
-console.log(f)
+console.log("fill-------",f)
 
 // reduce--> iterate
  var num=[3,6,9,15,12,18]
  var sum=num.reduce((val,ind)=>{
     return(val+ind)
  })
-console.log(sum)
-console.log("------------")
+console.log("reduce---------",sum)
 
-// findIndex
-
+// findIndex       ---> to find index element of 1st value is even or odd element this is "iteration" arr method
 var e=[2,4,5,3,7,2,9,1]
 var store=e.findIndex((val)=>{
   return val  %2 === 1
 })
-console.log(store)
+console.log("findIndex------",store)
 
 // from
-
-var f={0:'a',1:'b',2:'c',3:'d',4:'c',length:2}
+var f={0:'a',1:'b',2:'c',3:'d',4:'c',length:5}
 var v=Array.from(f)
-console.log(v)
+console.log("from---------",v)
 
 // of
-
 let newArray=Array.of(1,2,3,4,5)
- console.log(newArray)
+ console.log("of----------",newArray)
 
 // continous
-
 for(var i=1;i<=20;i++){
   if(i% 2==1)
   continue                            // skip the current iteration
-  console.log(i)
+  console.log("continous-----------",i)
 } 
 
-console.log("---------")
 // forEach
-
 var num=[9,0,8,0,3,8,4,2,5,4]
 var method_for=num.forEach(fname)
 function fname(value){
-  console.log(value)
+  console.log("forEach-------------",value)
 }
 
 // check index value exist using include()
-
 var fname=(arr,value)=>{
   return arr.includes(value);
 } 
 var array=  ["alan","spiderMan","xMan"]// [1,2,3,5,3,7]
 var checkVal= "xMan"
-console.log(fname(array,checkVal))
+console.log(fname("inculde--------------",array,checkVal))
 
 // fun return squar num
 
 function fName(num){
-  let squ=Math.pow(num,2)    // num**2
+  let squ=Math.pow(num,3)    // num**2
   return squ;
 }
-console.log(fName(5))
+console.log("return squar-------",fName(2))
 
 // division by 2 num
 
@@ -152,7 +144,7 @@ var sor= (val)=>{
 return val.sort()
 }
 let arr=[9,8,7,6,5,4]
-console.log(sor(arr))
+console.log("sort method-------",sor(arr))
 
 // calcu area of circle given radius
 
@@ -235,7 +227,7 @@ function recur(fibone){
     return recur(fibone-1)+ recur(fibone -2)
   }
 }                   // the process of calling it's self
-console.log(recur(10))  
+console.log("recursion fun-------------",recur(10))  
 
 
 console.log("-------use strict-------")

@@ -77,10 +77,10 @@
 //     let j=document.removeChild(span)
 //     console.log(j)
 // }
-function removeMenuChild(){
-let menu = document.getElementById('menu');
-menu.removeChild(menu.lastElementChild);
-}
+// function removeMenuChild(){
+// let menu = document.getElementById('menu');
+// menu.removeChild(menu.lastElementChild);
+// }
 
 //  function remove(){
 //     let para=document.getElementById('para1')

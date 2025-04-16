@@ -102,9 +102,9 @@ function fnam1(ele, ind, arr) {
   return ele > 5;
 
 }
-console.log(fi)
+console.log("filter----->",fi)
 var summa = fil.filter((ele, ind, arr) => ele % 2 == 1)
-console.log(summa)
+console.log("---->",summa)
 
 
 console.log("--map--")
@@ -143,13 +143,13 @@ let obj = {
 }
 for (o in obj) {
   x = obj[o]
-  console.log(x)
+  console.log("for in ",x)
 }
 
 console.log("---For of----")
 let arr = [9, 4, 5, 7, 2]
 for (forOF of arr) {
-  console.log(forOF)
+  console.log("for of",forOF)
 }
 
 console.log("-----")

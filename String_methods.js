@@ -62,7 +62,7 @@ console.log("-----------Slice--------------")
 
 console.log(k.slice(2,10))    // similar to substring
 
-console.log("----------toUpper case---------------")
+console.log("----------toUpper & lower case---------------")
 
 console.log(k.toUpperCase())
 console.log(k.toLowerCase())

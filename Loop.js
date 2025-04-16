@@ -2,7 +2,7 @@
 
 console.log("---------For loop-----------")
                         // Iterate the elements fixed for fixed num of times
-for(var i=1;i<=10;i++){
+for(var i=1;i<= 10;i++){
    console.log(i)   
 }
 
@@ -42,6 +42,16 @@ for(var o=1;o<=5;o++){
     console.log(pr)
 }
 
+console.log("------------------------------")
+
+for(var ot=1;ot<7;ot++){
+    let pro=" ";
+    for(var it=1;it<=7-ot;it++){
+        pro +="*";
+    }
+    console.log(pro)
+}
+
 console.log("---pyrimed----")
 
 var inp =5
@@ -73,17 +83,6 @@ for(var i=0 ;i< x ;i++){
 console.log(proSta)
 
 
-
-console.log("------------------------------")
-
-for(var ot=1;ot<7;ot++){
-    let pro=" ";
-    for(var it=1;it<=7-ot;it++){
-        pro +="*";
-    }
-    console.log(pro)
-}
-
 console.log("---------Break----------")
 
 /* while(true){
@@ -113,7 +112,7 @@ for(let o in obj){
 
 
 console.log("---------For of---------")
-
+// it can iterate the data struture such as "Array","string","map"...etc
 
 let frnds=["aravindh","kishor","nishanth"]
 for(let a of frnds){            //  work depend on array
